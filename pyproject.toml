@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "project-root"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.2.0"
+ipykernel = "^6.29.5"
+jupyter = "^1.1.1"
+matplotlib = "^3.10.0"
+openai = "^1.57.4"
+pandas = "^2.2.3"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
